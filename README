@@ -22,14 +22,14 @@ To learn more about command line options of LLM-TD, execute:
 
 The scripts in the 'ground-truth' directory contain regular expressions for
 each distinct event type in the event log, and also provide information
-about the ground truth and the result produced by each evaluated algorithm.
+about the ground truth and the result produced by each evaluated approach.
 
 For example, to produce a summary about all event types in logs/sshd.log,
 execute the following command line:
 
 cat logs/sshd.log | ground-truth/sshd-results.pl
 
-Information about ground truth and results from evaluated algorithms are
+Information about ground truth and results from evaluated approaches are
 provided as comments inside the ground truth script. For example, consider 
 the following stanza in ground-truth/sshd-results.pl:
 
@@ -41,7 +41,7 @@ the following stanza in ground-truth/sshd-results.pl:
 
 In the above stanza, 'template' keyword provides the ground truth template,
 whereas 'openchat', 'drain', 'mistral', and 'wizardlm2' keywords indicate
-if the relevant algorithm managed to identify the ground truth template.
+if the relevant approach managed to identify the ground truth template.
 Note that 'yes' indicates a successful detection according to P1 and P2 
 heuristic principles, and after 'yes' the identified template is provided
 in brackets. Also, if the detection was not successful, relevant comments

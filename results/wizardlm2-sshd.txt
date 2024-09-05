@@ -1,0 +1,50 @@
+sshd[12009]: Accepted publickey for george from 192.168.2.19 port 36084 ssh2: ED25519 SHA256:mKDgLxmdXfzg4jckNEVg8gLxi/+xunnroFV810Pc1Gb
+sshd[12043]: Accepted publickey for george from 192.168.2.19 port 36086 ssh2: ED25519 SHA256:mKDgLxmdXfzg4jckNEVg8gLxi/+xunnroFV810Pc1Gb
+sshd[12108]: Accepted publickey for george from 192.168.2.19 port 36114 ssh2: ED25519 SHA256:mKDgLxmdXfzg4jckNEVg8gLxi/+xunnroFV810Pc1Gb
+sshd[12146]: Accepted publickey for george from 192.168.2.19 port 36116 ssh2: ED25519 SHA256:mKDgLxmdXfzg4jckNEVg8gLxi/+xunnroFV810Pc1Gb
+sshd[12456]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.232  user=felix
+sshd[12483]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.232  user=felix
+sshd[13542]: Accepted publickey for alex from 192.168.2.84 port 38481 ssh2
+sshd[13544]: Received disconnect from 192.168.2.84: 11: disconnected by user
+sshd[13574]: reprocess config line 31: Deprecated option RSAAuthentication
+sshd[13574]: rexec line 20: Deprecated option ServerKeyBits
+sshd[17250]: input_userauth_request: invalid user edward [preauth]
+sshd[17266]: input_userauth_request: invalid user edward [preauth]
+sshd[20067]: Accepted publickey for alex from 192.168.2.84 port 37258 ssh2
+sshd[20069]: Received disconnect from 192.168.2.84: 11: disconnected by user
+sshd[20285]: Failed password for felix from 192.168.3.232 port 54484 ssh2
+sshd[24580]: Connection closed by 192.168.3.232 port 54245 [preauth]
+sshd[24580]: Failed password for felix from 192.168.3.232 port 54245 ssh2
+sshd[26490]: Connection closed by authenticating user felix 192.168.3.232 port 53419 [preauth]
+sshd[26494]: Connection closed by authenticating user felix 192.168.3.232 port 64680 [preauth]
+sshd[26494]: Failed password for felix from 192.168.3.232 port 64680 ssh2
+sshd[26496]: Connection closed by authenticating user felix 192.168.3.232 port 54746 [preauth]
+sshd[2655]: Accepted publickey for harald from 192.168.3.63 port 37310 ssh2: RSA 5f:9c:54:0a:ac:46:82:5e:a1:7c:6d:c2:7a:0a:e7:31
+sshd[2657]: Received disconnect from 192.168.3.63: 11: disconnected by user
+sshd[27460]: Accepted publickey for felix from 192.168.2.39 port 49904 ssh2: RSA 64:f1:40:56:19:3d:fc:dd:63:88:f9:7a:0e:14:8c:9d
+sshd[28564]: error: Received disconnect from 192.168.2.228 port 35290:0:
+sshd[28737]: Accepted publickey for george from 192.168.2.19 port 60584 ssh2: ED25519 SHA256:mKDgLxmdXfzg4jckNEVg8gLxi/+xunnroFV810Pc1Gb
+sshd[28775]: Accepted publickey for george from 192.168.2.19 port 60682 ssh2: ED25519 SHA256:mKDgLxmdXfzg4jckNEVg8gLxi/+xunnroFV810Pc1Gb
+sshd[28814]: Accepted publickey for george from 192.168.2.19 port 60766 ssh2: ED25519 SHA256:mKDgLxmdXfzg4jckNEVg8gLxi/+xunnroFV810Pc1Gb
+sshd[28842]: Accepted publickey for george from 192.168.2.19 port 60808 ssh2: ED25519 SHA256:mKDgLxmdXfzg4jckNEVg8gLxi/+xunnroFV810Pc1Gb
+sshd[28868]: Accepted publickey for george from 192.168.2.19 port 60810 ssh2: ED25519 SHA256:mKDgLxmdXfzg4jckNEVg8gLxi/+xunnroFV810Pc1Gb
+sshd[29334]: Accepted publickey for michael from 192.168.3.67 port 52481 ssh2: RSA 49:92:02:3f:22:99:1a:82:35:6f:1d:4d:c9:29:e0:ad
+sshd[3725]: Accepted publickey for felix from 192.168.2.39 port 49899 ssh2: RSA 64:f1:40:56:19:3d:fc:dd:63:88:f9:7a:0e:14:8c:9d
+sshd[4056]: Failed password for alice from 192.168.3.250 port 38808 ssh2
+sshd[6026]: Accepted publickey for felix from 192.168.2.39 port 49909 ssh2: RSA 64:f1:40:56:19:3d:fc:dd:63:88:f9:7a:0e:14:8c:9d
+sshd[6480]: Accepted publickey for george from 192.168.2.19 port 45040 ssh2: ED25519 SHA256:mKDgLxmdXfzg4jckNEVg8gLxi/+xunnroFV810Pc1Gb
+sshd[9082]: Accepted publickey for edward from 192.168.1.68 port 43706 ssh2: RSA 54:99:d5:25:67:ca:59:4b:e8:a7:c7:7b:60:8f:5c:7e
+sshd[9084]: Received disconnect from 192.168.1.68: 11: disconnected by user
+sshd[9186]: Received disconnect from 192.168.1.68: 11: disconnected by user
+sshd[<*>]: Accepted password for <*> from <*> port <*> ssh2
+sshd[<*>]: Accepted publickey for <*> from <*> port <*> ssh2: RSA SHA256:<*>
+sshd[<*>]: Address <*> maps to ws112.example.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+sshd[<*>]: Connection closed by 192.168.0.151 [preauth]
+sshd[<*>]: Disconnected from <*> port <*>
+sshd[<*>]: PAM 2 more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>  user=<*>
+sshd[<*>]: pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>  user=<*>
+sshd[<*>]: pam_unix(sshd:session): session closed for user <*>
+sshd[<*>]: pam_unix(sshd:session): session opened for user <*> by (uid=<*>)
+sshd[<*>]: Received disconnect from <*> port <*>:<*>
+sshd[<*>]: reprocess config line <*>: Deprecated option <*>
+sshd[<*>]: rexec line <*>: Deprecated option <*>

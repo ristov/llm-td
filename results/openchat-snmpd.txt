@@ -1,0 +1,7 @@
+snmpd[<*>]: error on subcontainer '<*>' insert (-1)
+snmpd[<*>]: IFLA_STATS for <*>
+snmpd[<*>]: ioctl <*> returned -1
+snmpd[<*>]: NET-SNMP version 5.8
+snmpd[<*>]: [snmpd.ERR]: send response: Too long
+snmpd[<*>]: [snmpd.ERR]:     -- SNMPv2-SMI::mib-<*>
+snmpd[<*>]: [snmpd.NOTICE]: Got SNMP request from ip <*>

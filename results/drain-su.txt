@@ -1,0 +1,16 @@
+<*> - /dev/pts/0 alice:mysql
+<*> FAILED su for mysql by alice
+<*> pam_authenticate: Authentication failure
+<*> pam_systemd(su:session): Cannot create session: Already running in a session
+<*> pam_unix(su:auth): auth could not identify password for [mysql]
+<*> pam_unix(su-l:session): session closed for user <*>
+<*> pam_unix(su-l:session): session opened for user <*> by <*>
+<*> pam_unix(su:session): session closed for user <*>
+<*> pam_unix(su:session): session opened for user <*> by <*>
+<*> + ??? root:nobody
+<*> + <*> root:root
+su[10522]: (to backup) robert on pts/0
+su[24639]: + /dev/tty1 root:postgres
+<*> Successful su for <*> by root
+<*> (to root) <*> on <*>
+<*> (to testuser) <*> on <*>

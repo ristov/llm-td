@@ -1,0 +1,8 @@
+<*> ioctl <*> returned -1
+<*> NET-SNMP version 5.8
+snmpd[544]: error on subcontainer 'interface container' insert (-1)
+snmpd[544]: error on subcontainer 'systemstats_autocreate' insert (-1)
+snmpd[604]: IFLA_STATS for <*>
+<*> [snmpd.ERR]: -- <*>
+<*> [snmpd.ERR]: send response: Too long
+<*> [snmpd.NOTICE]: Got SNMP request from ip <*>

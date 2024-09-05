@@ -1,0 +1,25 @@
+sshd[<*>]: Accepted <*> for <*> from <*> port <*> ssh2
+sshd[<*>]: Accepted <*> for <*> from <*> port <*> ssh2: <*>
+sshd[<*>]: Bad protocol version identification '<*>' from <*>
+sshd[<*>]: Connection closed by <*> [preauth]
+sshd[<*>]: Connection reset by authenticating user <*> <*> port <*> [preauth]
+sshd[<*>]: Did not receive identification string from <*>
+sshd[<*>]: Disconnected from <*> port <*>
+sshd[<*>]: dispatch_protocol_error: type 52 seq <*>
+sshd[<*>]: dispatch_protocol_error: type 90 seq <*>
+sshd[<*>]: Failed <*> for invalid user <*> from <*> port <*> ssh2
+sshd[<*>]: Failed password for <*> from <*> port <*> ssh2
+sshd[<*>]: Failed password for <*> from <*> port <*> ssh2: <*>
+sshd[<*>]: fatal: <*> failed: Connection reset by peer
+sshd[<*>]: fatal: <*> [preauth]
+sshd[<*>]: input_userauth_request: invalid user <*>
+sshd[<*>]: Invalid user <*> from <*> port <*>
+sshd[<*>]: <*> line <*>: Deprecated option <*>
+sshd[<*>]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*> user=<*>
+sshd[<*>]: pam_unix(sshd:session): session closed for user <*>
+sshd[<*>]: pam_unix(sshd:session): session opened for user <*> by (uid=<*>)
+sshd[<*>]: Received disconnect from <*>: <*>: <*>
+sshd[<*>]: Received disconnect from <*> port <*>:<*>: <*>
+sshd[<*>]: Server listening on 0.0.0.0 port <*>
+sshd[<*>]: Server listening on :: port <*>
+sshd[<*>]: User <*> from <*> not allowed because none of user's groups are listed in AllowGroups

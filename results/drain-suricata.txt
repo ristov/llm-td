@@ -1,0 +1,80 @@
+suricata[1701965]: <*> GPL <*> <*> <*> <*> [Classification: Attempted Information Leak] [Priority: 2] <*> <*> -> <*>
+suricata[1701965]: <*> ETPRO USER_AGENTS Observed <*> <*> <*> [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} <*> -> <*>
+suricata[1701965]: <*> ET <*> <*> <*> <*> <*> [Classification: Potentially Bad Traffic] [Priority: 2] <*> <*> -> <*>
+suricata[1701965]: [1:2101201:11] GPL WEB_SERVER 403 Forbidden [Classification: Attempted Information Leak] [Priority: 2] {TCP} <*> -> <*>
+suricata[1701965]: [1:2812543:1] ETPRO DOS Possible RPC Portmapper Scanning [Classification: Attempted Denial of Service] [Priority: 2] {UDP} <*> -> <*>
+suricata[1701965]: [1:2808084:1] ETPRO SNMP R7-2014-02 Ubee cable modem credential stealing attempt 1 [Classification: Attempted Information Leak] [Priority: 2] {UDP} <*> -> <*>
+suricata[1701965]: <*> ET DNS Query to a <*> domain - Likely Hostile [Classification: Potentially Bad Traffic] [Priority: 2] <*> <*> -> <*>
+suricata[1701965]: [1:2017918:2] ET DOS Possible NTP DDoS Inbound Frequent Un-Authed MON_LIST Requests IMPL 0x02 [Classification: Attempted Denial of Service] [Priority: 2] {UDP} 192.168.51.91:10303 -> <*>
+suricata[1701965]: [1:2051955:1] ET WEB_SPECIFIC_APPS D-Link NAS devices Backdoor Account Access and Command Injection Attempt (CVE-2024-3273) [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: [1:2028372:2] ET JA3 Hash - Possible Malware - FiestaEK [Classification: Exploit Kit Activity Detected] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: [1:2019102:1] ET DOS Possible SSDP Amplification Scan in Progress [Classification: Attempted Denial of Service] [Priority: 2] {UDP} <*> -> <*>
+suricata[1701965]: [1:2043093:1] ET ADWARE_PUP Observed DNS Query to PUP Domain (omnatuor .com) [Classification: Possibly Unwanted Program Detected] [Priority: 2] {UDP} <*> -> <*>
+suricata[1701965]: <*> ET EXPLOIT <*> <*> <*> <*> <*> <*> <*> <*> [Classification: Attempted <*> Privilege Gain] [Priority: 1] <*> <*> -> <*>
+suricata[1701965]: <*> ET <*> <*> <*> <*> <*> <*> <*> <*> [Classification: Attempted <*> Privilege Gain] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: <*> ET <*> <*> <*> <*> <*> [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: <*> ET <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> [Classification: Potentially Bad Traffic] [Priority: 2] <*> <*> -> <*>
+suricata[1701965]: [1:2846421:2] ETPRO WEB_SPECIFIC_APPS PHPUnit Arbitrary Code Execution (CVE-2017-9841) M1 [Classification: Web Application Attack] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: <*> ET WEB_SERVER <*> <*> <*> <*> <*> <*> <*> [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} <*> -> <*>
+suricata[1701965]: [1:2036289:1] ET COINMINER CoinMiner Domain in DNS Lookup (pool .hashvault .pro) [Classification: Crypto Currency Mining Activity Detected] [Priority: 2] {UDP} <*> -> <*>
+suricata[1701965]: <*> ET WEB_SERVER <*> <*> <*> <*> [Classification: Attempted Information Leak] [Priority: 2] {TCP} <*> -> <*>
+suricata[1701965]: <*> ET <*> <*> <*> <*> <*> <*> <*> <*> <*> [Classification: Web Application Attack] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: [1:2011768:8] ET WEB_SERVER PHP tags in HTTP POST [Classification: Web Application Attack] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: <*> ET <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: <*> ETPRO <*> <*> <*> <*> <*> [Classification: Attempted Administrator Privilege Gain] [Priority: 1] <*> <*> -> <*>
+suricata[1701965]: [1:2032357:2] ET ADWARE_PUP DriverPack Domain in DNS Query [Classification: Possibly Unwanted Program Detected] [Priority: 2] {UDP} <*> -> <*>
+suricata[1701965]: [1:2037895:1] ET ADWARE_PUP Observed DNS Query to DriverPack Domain ( .drp .su) [Classification: Possibly Unwanted Program Detected] [Priority: 2] {UDP} <*> -> <*>
+suricata[1701965]: [1701965] <Warning> -- [ERRCODE: SC_ERR_EVENT_ENGINE(210)] - can't suppress sid <*> gid 1: unknown rule
+suricata[1701965]: [1:2830690:4] ETPRO EXPLOIT GPON Authentication Bypass Attempt (CVE-2018-10561) [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: <*> ET <*> <*> <*> <*> <*> <*> [Classification: Attempted Information Leak] [Priority: 2] <*> <*> -> <*>
+suricata[1701965]: <*> ET <*> <*> <*> <*> <*> <*> <*> [Classification: Attempted <*> Privilege Gain] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: <*> ET EXPLOIT <*> <*> <*> <*> <*> <*> <*> <*> <*> [Classification: Attempted <*> Privilege Gain] [Priority: 1] <*> <*> -> <*>
+suricata[1701965]: [1:2834928:4] ETPRO ADWARE_PUP Observed Suspicious UA (AdvancedInstaller) [Classification: Possibly Unwanted Program Detected] [Priority: 2] {TCP} <*> -> <*>
+suricata[1701965]: <*> ET EXPLOIT <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> [Classification: Attempted Administrator Privilege Gain] [Priority: 1] <*> <*> -> <*>
+suricata[1701965]: [1:2019526:5] ET WEB_SERVER WEB-PHP phpinfo access [Classification: Information Leak] [Priority: 2] {TCP} <*> -> <*>
+suricata[1701965]: <*> ET <*> <*> <*> <*> <*> <*> <*> [Classification: Web Application Attack] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: <*> ET <*> <*> <*> <*> <*> <*> <*> <*> [Classification: A Network Trojan was detected] [Priority: 1] <*> <*> -> <*>
+suricata[1701965]: <*> ET <*> <*> <*> <*> <*> <*> <*> <*> [Classification: Web Application Attack] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: [1:2845228:2] ETPRO USER_AGENTS non-standard wget User-Agent [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} <*> -> 192.168.2.82:80
+suricata[1701965]: <*> ET VOIP <*> Message Flood UDP [Classification: Attempted Denial of Service] [Priority: 2] {UDP} <*> -> <*>
+suricata[1701965]: [1:2849740:1] ETPRO ADWARE_PUP Suspicious Domain (flow .lavasoft .com) in TLS SNI [Classification: Possibly Unwanted Program Detected] [Priority: 2] {TCP} <*> -> <*>
+suricata[1701965]: <*> GPL VOIP SIP <*> <*> <*> [Classification: Attempted Denial of Service] [Priority: 2] {UDP} <*> -> <*>
+suricata[1701965]: [1701965] <Notice> -- rule reload <*>
+suricata[1701965]: <*> ET EXPLOIT Possible OpenSSL HeartBleed Large HeartBeat Response from Common SSL Port (Outbound from <*> [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} <*> -> <*>
+suricata[1701965]: [1:2101529:12] GPL FTP SITE overflow attempt [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} <*> -> 192.168.22.208:21
+suricata[1701965]: [1:2022028:2] ET WEB_SERVER Possible CVE-2014-6271 Attempt [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} <*> -> 192.168.48.105:80
+suricata[1701965]: [1:2851040:1] ETPRO ADWARE_PUP AndroidOS/Trojan.OJNF-2 Variant Sending Phone Information (POST) [Classification: Possibly Unwanted Program Detected] [Priority: 2] {TCP} <*> -> <*>
+suricata[1701965]: [1:2009700:1] ET VOIP Multiple Unauthorized SIP Responses UDP [Classification: Attempted Denial of Service] [Priority: 2] {UDP} 192.168.104.202:5060 -> <*>
+suricata[1701965]: <*> ET <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> [Classification: Web Application Attack] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: <*> ET <*> <*> <*> <*> [Classification: <*> <*> <*> [Priority: 2] {TCP} <*> -> <*>
+suricata[1701965]: <*> ET <*> <*> <*> <*> <*> <*> [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: <*> ETPRO <*> <*> <*> <*> <*> <*> <*> <*> [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: <*> ET <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: [1:2011037:6] ET WEB_SERVER Possible Attempt to Get SQL Server Version in URI using SELECT VERSION [Classification: Web Application Attack] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: <*> ETPRO <*> <*> <*> <*> <*> <*> <*> [Classification: Attempted <*> Privilege Gain] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: <*> ET USER_AGENTS <*> <*> <*> <*> <*> [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} <*> -> <*>
+suricata[1701965]: [1:2100349:13] GPL FTP MKD overflow [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} <*> -> 192.168.22.208:21
+suricata[1701965]: [1:2847525:1] ETPRO USER_AGENTS Suspicious User-Agent [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} <*> -> <*>
+suricata[1701965]: [1:2018389:4] ET EXPLOIT Possible TLS HeartBleed Unencrypted Request Method 3 (Inbound to Common SSL Port) [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} <*> -> <*>
+suricata[1701965]: <*> ET WEB_SERVER <*> <*> <*> <*> <*> <*> [Classification: A Network Trojan was detected] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: <*> ETPRO MALWARE <*> <*> SSL Cert <*> <*> <*> <*> <*> <*> <*> <*> <*> [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: [1:2041451:1] ET EXPLOIT Xiongmai/HiSilicon DVR - Request for User Details - Possible CVE-2017-7577 Exploit Attempt [Classification: Web Application Attack] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: [1:2829579:2] ETPRO EXPLOIT Huawei Remote Command Execution (CVE-2017-17215) [Classification: A Network Trojan was detected] [Priority: 1] {TCP} <*> -> <*>
+suricata[1701965]: [1:2025855:2] ET WEB_SPECIFIC_APPS Microhard Systems 3G/4G Cellular Ethernet and Serial Gateway - Default Credentials [Classification: Attempted Information Leak] [Priority: 2] {TCP} <*> -> <*>
+suricata[1701965]: [1:2003337:23] ET USER_AGENTS Suspicious User Agent (Autoupdate) [Classification: Possibly Unwanted Program Detected] [Priority: 2] {TCP} <*> -> 192.168.43.60:80
+suricata[1701965]: [1:2038840:2] ET MALWARE Brute Ratel Fake User-Agent [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 192.168.122.85:42251 -> 192.168.46.109:80
+suricata[1701965]: [1:2854824:1] ETPRO JA3 HASH Suspected Malware Related Response [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} <*> -> <*>
+suricata[1701965]: [1:2017910:3] ET HUNTING suspicious - gzipped file via JAVA - could be pack200-ed JAR [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 192.168.25.48:8088 -> 192.168.171.69:51894
+suricata[1701965]: <*> ET ADWARE_PUP <*> <*> <*> [Classification: Possibly Unwanted Program Detected] [Priority: 2] {TCP} <*> -> <*>
+suricata[1701965]: [1:2010667:7] ET WEB_SERVER /bin/bash In URI, Possible Shell Command Execution Attempt Within Web Exploit [Classification: Web Application Attack] [Priority: 1] {TCP} <*> -> 192.168.48.105:80
+suricata[1701965]: [1:2846424:1] ETPRO WEB_SPECIFIC_APPS WordPress File Manager Plugin Remote Code Execution (CVE-2020-25213) [Classification: Web Application Attack] [Priority: 1] {TCP} <*> -> 192.168.48.105:80
+suricata[1701965]: [1:2841936:1] ETPRO USER_AGENTS Observed Suspicious UA (Microsoft Windows Network Diagnostics) [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} <*> -> <*>
+suricata[1701965]: [1:2035373:2] ET EXPLOIT Zabbix v5.4.0 - 5.4.8 SSO/SALM Auth Bypass (CVE-2022-23131) M3 [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 192.168.82.55:37510 -> 192.168.131.160:80
+suricata[1701965]: [1702042] <Notice> -- Flow emergency mode entered...
+suricata[1701965]: [1702042] <Notice> -- Flow emergency mode over, back to normal... unsetting FLOW_EMERGENCY bit (ts.tv_sec: 1712598435, ts.tv_usec:781169) flow_spare_q status(): 433% flows at the queue
+suricata[1701965]: [1:2032175:5] ET PHISHING Shared Document Base64 Phishing Landing 2016-01-20 [Classification: Possible Social Engineering Attempted] [Priority: 2] {TCP} 192.168.107.35:80 -> 192.168.85.85:56612
+suricata[1701965]: [1:2812465:8] ETPRO USER_AGENTS Suspicious User-Agent (User-Agent) [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 192.168.234.193:64131 -> 192.168.141.76:80
+suricata[1701965]: [1:2823606:3] ETPRO EXPLOIT_KIT Possible Evil Redirect Leading to EK Dec 04 2016 [Classification: Exploit Kit Activity Detected] [Priority: 1] {TCP} 192.168.255.19:80 -> 192.168.141.233:59206
+suricata[1701965]: [1:2012168:6] ET WEB_SPECIFIC_APPS Tiki Wiki CMS Groupware language Parameter Local File Inclusion Attempt [Classification: Web Application Attack] [Priority: 1] {TCP} 192.168.137.109:48026 -> 192.168.161.208:80
+suricata[1701965]: [1:2816391:1] ETPRO MALWARE Java/Jacksbot CnC Beacon 2 [Classification: Malware Command and Control Activity Detected] [Priority: 1] {TCP} 192.168.122.85:14912 -> 192.168.46.109:80
+suricata[1701965]: [1:2018378:6] ET EXPLOIT Possible OpenSSL HeartBleed Large HeartBeat Response (Server Init Vuln Client) [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.3.208:57868 -> 192.168.162.235:443

@@ -1,0 +1,7 @@
+apache2: PHP Notice: <*> already defined in <*> on line <*>
+apache2: PHP Notice:  Undefined index: <*> in <*> on line <*>
+apache2: PHP Notice:  Undefined offset: <*> in <*> on line <*>
+apache2: PHP Notice:  Undefined variable: <*> in <*> on line <*>
+apache2: PHP Warning:  <*> failed for <*> in <*> on line <*>
+apache2: PHP Warning:  Invalid argument supplied for foreach() in <*> on line <*>
+apache2: PHP Warning:  ob_flush() expects exactly 0 parameters, <*> given in <*> on line <*>

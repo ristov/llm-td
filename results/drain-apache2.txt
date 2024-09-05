@@ -1,0 +1,4 @@
+apache2: PHP Notice: Undefined <*> <*> in <*> on line <*>
+apache2: PHP Notice: Constant DAY already defined in /var/www/html/time.php on line 7
+apache2: PHP Warning: <*> <*> <*> for <*> in <*> on line <*>
+apache2: PHP Warning: ob_flush() expects exactly 0 parameters, 1 given in /var/www/html/survey.php on line 229

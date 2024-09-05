@@ -1,0 +1,15 @@
+suricata[<*>]: [<*>] ET <*> [Classification: <*>] [Priority: <*>] {<*>} <*> -> <*>:<*>
+suricata[<*>]: [<*>] ETPRO <*> [Classification: <*>] [Priority: <*>] {<*>} <*> -> <*>:<*>
+suricata[<*>]: [<*>] GPL DNS named authors attempt [Classification: Attempted Information Leak] [Priority: <*>] {UDP} <*> -> <*>:<*>
+suricata[<*>]: [<*>] GPL DNS named version attempt [Classification: Attempted Information Leak] [Priority: <*>] {TCP} <*> -> <*>:<*>
+suricata[<*>]: [<*>] GPL DNS named version attempt [Classification: Attempted Information Leak] [Priority: <*>] {UDP} <*> -> <*>:<*>
+suricata[<*>]: [<*>] GPL FTP MKD overflow [Classification: Attempted Administrator Privilege Gain] [Priority: <*>] {TCP} <*> -> <*>:<*>
+suricata[<*>]: [<*>] GPL FTP SITE overflow attempt [Classification: Attempted Administrator Privilege Gain] [Priority: <*>] {TCP} <*> -> <*>:<*>
+suricata[<*>]: [<*>] GPL <*> public access udp [Classification: Attempted Information Leak] [Priority: <*>] {UDP} <*> -> <*>:<*>
+suricata[<*>]: [<*>] GPL RPC xdmcp info query [Classification: Attempted Information Leak] [Priority: 2] {UDP} <*> -> <*>
+suricata[<*>]: [<*>] GPL VOIP SIP 401 Unauthorized Flood [Classification: Attempted Denial of Service] [Priority: <*>] {UDP} <*> -> <*>:<*>
+suricata[<*>]: [<*>] GPL VOIP SIP INVITE message flooding [Classification: Attempted Denial of Service] [Priority: <*>] {UDP} <*> -> <*>:<*>
+suricata[<*>]: [<*>] GPL WEB_SERVER <*> Forbidden [Classification: Attempted Information Leak] [Priority: <*>] {TCP} <*> -> <*>:<*>
+suricata[<*>]: [<*>] <Notice> -- rule reload complete
+suricata[<*>]: [<*>] <Notice> -- rule reload starting
+suricata[<*>]: [<*>] <Warning> -- [ERRCODE: SC_ERR_EVENT_ENGINE(210)] - can't suppress sid <*>, gid 1: unknown rule

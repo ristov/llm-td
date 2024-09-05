@@ -1,0 +1,6 @@
+snmpd[<*>]: IFLA_STATS for <*>
+snmpd[<*>]: ioctl <*> returned -1
+snmpd[<*>]: [snmpd.ERR]: send response: Too long
+snmpd[<*>]: [snmpd.ERR]:     -- SNMPv2-SMI::<*>
+snmpd[<*>]: [snmpd.NOTICE]: Got SNMP request from ip <*>
+snmpd[<*>]: [<*>]:     -- SNMPv2-SMI::<*>

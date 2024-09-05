@@ -1,0 +1,3 @@
+apache2: PHP Notice: <*> in <*> on line <*>
+apache2: PHP Warning: <*> expects exactly <*> parameters, <*> given in <*> on line <*>
+apache2: PHP Warning: <*> in <*> on line <*>

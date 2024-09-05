@@ -1,0 +1,9 @@
+su[19884]: pam_unix(su:session): session opened for user root by alice(uid=0)
+su[28256]: pam_unix(su-l:session): session closed for user root
+su[28256]: pam_unix(su-l:session): session opened for user root by alice(uid=0)
+su[29986]: + ??? root:nobody
+su[<*>]: + /dev/pts/<*> root:root
+su[<*>]: pam_unix(su:session): session closed for user <*>
+su[<*>]: pam_unix(su:session): session opened for user nobody by (uid=0)
+su[<*>]: Successful su for nobody by root
+su[<*>]: Successful su for root by root

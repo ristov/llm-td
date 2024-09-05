@@ -1,0 +1,32 @@
+sshd[<*>]: Accepted <*> for <*> from <*> port <*> ssh2
+sshd[<*>]: Accepted publickey for <*> from <*> port <*> ssh2: <*>
+sshd[<*>]: Address <*> maps to <*> but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+sshd[<*>]: Bad protocol version identification '<*>' from <*>
+sshd[<*>]: Connection closed by <*> [preauth]
+sshd[<*>]: Connection reset by authenticating user <*> <*> port <*> [preauth]
+sshd[<*>]: Did not receive identification string from <*>
+sshd[<*>]: Disconnected from <*> port <*>
+sshd[<*>]: dispatch_protocol_error: type <*> seq <*>
+sshd[<*>]: error: Received disconnect from <*> port <*>
+sshd[<*>]: /etc/ssh/sshd_config line <*>: Deprecated option <*>
+sshd[<*>]: Failed <*> for invalid user <*> from <*> port <*> ssh2
+sshd[<*>]: Failed password for <*> from <*> port <*> ssh2
+sshd[<*>]: Failed password for <*> from <*> port <*> ssh2: <*>
+sshd[<*>]: fatal: Read from socket failed: Connection reset by peer
+sshd[<*>]: fatal: Read from socket failed: Connection reset by peer [preauth]
+sshd[<*>]: fatal: Write failed: Connection reset by peer
+sshd[<*>]: input_userauth_request: invalid user <*>
+sshd[<*>]: Invalid user <*> from <*>
+sshd[<*>]: Invalid user <*> from <*> port <*>
+sshd[<*>]: PAM <*> more authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>
+sshd[<*>]: PAM <*> more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*> user=<*>
+sshd[<*>]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+sshd[<*>]: pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>
+sshd[<*>]: pam_unix(sshd:session): session closed for user <*>
+sshd[<*>]: pam_unix(sshd:session): session opened for user <*> by (uid=<*>)
+sshd[<*>]: Protocol major versions differ for <*>: SSH-<*>-OpenSSH_<*> vs. SSH-<*>-OpenSSH_<*>
+sshd[<*>]: Received disconnect from <*>:<*>
+sshd[<*>]: reprocess config line <*>: Deprecated option <*>
+sshd[<*>]: rexec line <*>: Deprecated option <*>
+sshd[<*>]: Server listening on <*> port <*>.
+sshd[<*>]: User <*> from <*> not allowed because none of user's groups are listed in AllowGroups

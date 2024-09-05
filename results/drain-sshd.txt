@@ -1,0 +1,44 @@
+<*> Accepted password for <*> from <*> port <*> ssh2
+<*> Accepted publickey for alex from 192.168.2.84 port <*> ssh2
+<*> Accepted publickey for <*> from <*> port <*> ssh2: <*> <*>
+<*> Address 192.168.2.167 maps to ws112.example.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+<*> Bad protocol version identification <*> from 192.168.3.141
+<*> Connection closed by authenticating user <*> <*> port <*> [preauth]
+<*> Connection closed by <*> port <*> [preauth]
+<*> Connection closed by <*> [preauth]
+<*> Connection reset by authenticating user felix 192.168.3.232 port <*> [preauth]
+<*> Did not receive identification string from <*>
+<*> Disconnected from authenticating user alice 192.168.3.250 port <*> [preauth]
+<*> Disconnected from <*> port <*>
+<*> Disconnected from <*> port <*> [preauth]
+<*> Disconnected from user <*> <*> port <*>
+<*> dispatch_protocol_error: type <*> seq <*>
+<*> error: Received disconnect from <*> <*> <*>
+<*> error: Received disconnect from <*> 0:
+<*> error: Received disconnect from <*> port <*> com.jcraft.jsch.JSchException: Auth fail [preauth]
+<*> /etc/ssh/sshd_config line <*> Deprecated option <*>
+<*> Failed none for invalid user edward from 192.168.0.89 port <*> ssh2
+<*> Failed password for <*> from <*> port <*> ssh2
+<*> fatal: Read from socket failed: Connection reset by peer
+<*> fatal: Read from socket failed: Connection reset by peer [preauth]
+<*> fatal: Write failed: Connection reset by peer
+<*> input_userauth_request: invalid user <*> [preauth]
+<*> input_userauth_request: invalid user root
+<*> Invalid user <*> from <*> port <*>
+<*> PAM <*> more authentication <*> logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.3.232 user=felix
+<*> pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= <*> <*>
+<*> pam_unix(sshd:session): session closed for user <*>
+<*> pam_unix(sshd:session): session opened for user <*> by (uid=0)
+<*> Protocol major versions differ for 192.168.3.141: SSH-2.0-OpenSSH_5.3 vs. <*>
+<*> Received disconnect from <*> 11: disconnected by user
+<*> Received disconnect from <*> port <*>
+<*> Received disconnect from <*> port <*> <*>
+<*> Received disconnect from <*> port <*> disconnected by user
+<*> reprocess config line <*> Deprecated option <*>
+<*> rexec line <*> Deprecated option <*>
+<*> Server listening on <*> port 22.
+sshd[10842]: Invalid user felixa from 192.168.3.232
+sshd[20970]: Failed password for alice from 192.168.0.105 port 39202 ssh2: RSA SHA256:RDF/A9ol2oNtdGNllLjrpC708VyFNRmZTy10mnHCRpg
+sshd[24328]: error: Received disconnect from 192.168.2.72 port 42920:0: [preauth]
+sshd[7173]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+<*> User root from srv31.example.com not allowed because none of user's groups are listed in AllowGroups

@@ -47,6 +47,20 @@ heuristic principles, and after 'yes' the identified template is provided
 in brackets. Also, if the detection was not successful, relevant comments
 may optionally follow.
 
+LLM-TD has been primarily designed for syslog log files and it uses syslog
+program names for recognizing templates in LLM responses. However, LLM-TD can 
+be employed for analyzing non-syslog log files which contain free-form textual
+messages. If the messages do not begin with the name of the logging program,
+you can add a custom program name (e.g., AppName) to the beginning of each
+log message, so that LLM-TD can use it for recognizing templates:
+
+cat mylog | perl -ne 'print "AppName $_"' >test.log
+
+After that, you can configure LLM-TD to pick up the custom program name
+fom the beginning of each log message:
+
+./llm-td.pl --model=openchat --logfile=test.log --script=./llm-query.sh --regexp='(?<line>(?<program>AppName).+)'
+
 
 Availability and licensing
 --------------------------

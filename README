@@ -59,7 +59,8 @@ cat mylog | perl -ne 'print "AppName $_"' >test.log
 After that, you can configure LLM-TD to pick up the custom program name
 fom the beginning of each log message:
 
-./llm-td.pl --model=openchat --logfile=test.log --script=./llm-query.sh --regexp='(?<line>(?<program>AppName).+)'
+./llm-td.pl --model=openchat --logfile=test.log --script=./llm-query.sh \
+  --regexp='(?<line>(?<program>AppName).+)'
 
 
 Availability and licensing

@@ -22,7 +22,8 @@ To learn more about command line options of LLM-TD, execute:
 
 The scripts in the 'ground-truth' directory contain regular expressions for
 each distinct event type in the event log, and also provide information
-about the ground truth and the result produced by each evaluated approach.
+about the ground truth and the result produced by each evaluated approach
+(LLM-TD was used with the default settings).
 
 For example, to produce a summary about all event types in logs/sshd.log,
 execute the following command line:

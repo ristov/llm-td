@@ -1,4 +1,5 @@
 su[<*>]: + <*> <*>:<*>
+su[<*>]: pam_authenticate: Authentication failure
 su[<*>]: pam_systemd(su:session): Cannot create session: Already running in a session
 su[<*>]: pam_unix(su-l:session): session closed for user <*>
 su[<*>]: pam_unix(su-l:session): session opened for user <*> by <*>(uid=<*>)

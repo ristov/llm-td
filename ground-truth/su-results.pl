@@ -156,7 +156,7 @@ while (<STDIN>) {
   # template: su[<*>]: pam_authenticate: Authentication failure
   # openchat: yes (su[<*>]: pam_authenticate: Authentication failure)
   # drain: yes (<*> pam_authenticate: Authentication failure)
-  # mistral: no
+  # mistral: yes (su[<*>]: pam_authenticate: Authentication failure)
   # wizardlm2: no
 
   elsif (/su\[\d+\]: pam_authenticate: (Authentication failure)$/) {

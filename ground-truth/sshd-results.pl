@@ -98,7 +98,7 @@ while (<STDIN>) {
   }
 
   # template: sshd[<*>]: Invalid user <*> from <*> port <*>
-  # openchat: yes (sshd[<*>]: Invalid user <*> from <*> port <*>)
+  # openchat: no
   # drain: yes (<*> Invalid user <*> from <*> port <*>)
   # mistral: yes (sshd[<*>]: Invalid user <*> from <*> port <*>)
   # wizardlm2: no
@@ -450,8 +450,8 @@ while (<STDIN>) {
 
   }
 
-  # template: sshd[<*>]: Address <*> maps to <*> but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
-  # openchat: yes (sshd[<*>]: Address <*> maps to <*> but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!)
+  # template: sshd[<*>]: Address <*> maps to <*>, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+  # openchat: no (the template 'sshd[<*>]: Address <*> maps to <*> but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!' is very close, but the comma after the hostname is not detected)
   # drain: yes (<*> Address 192.168.2.167 maps to ws112.example.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!), note that ip=192.168.2.167 and host=ws112.example.com for all events
   # mistral: no
   # wizardlm2: yes (sshd[<*>]: Address <*> maps to ws112.example.com, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!), note that host=ws112.example.com for all events

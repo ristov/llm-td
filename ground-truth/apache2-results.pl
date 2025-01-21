@@ -95,7 +95,7 @@ while (<STDIN>) {
   # template: apache2: PHP Warning: <*> expects exactly <*> parameters, <*> given in <*> on line <*>
   # openchat: yes (apache2: PHP Warning:  ob_flush() expects exactly 0 parameters, <*> given in <*> on line <*>), note that parameter="ob_flush()" and num1=0 for all events
   # drain: yes (apache2: PHP Warning: ob_flush() expects exactly 0 parameters, 1 given in /var/www/html/survey.php on line 229), note that parameter=ob_flush(), num1=0, num2=1, script=/var/www/html/survey.php and line=229 for all events
-  # mistral: yes (apache2: PHP Warning: <*> expects exactly <*> parameters, <*> given in <*> on line <*>)
+  # mistral: no (too generic template detected)
   # wizardlm2: yes (apache2: PHP Warning: ob_flush() expects exactly 0 parameters, 1 given in /var/www/html/survey.php on line 229), note that parameter=ob_flush(), num1=0, num2=1, script=/var/www/html/survey.php and line=229 for all events
 
   elsif (/apache2: PHP Warning:  (\S+) expects exactly (\d+) parameters, (\d+) given in (\S+) on line (\d+)$/) {

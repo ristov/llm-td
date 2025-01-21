@@ -17,7 +17,6 @@ sshd[<*>]: fatal: Read from socket failed: Connection reset by peer [preauth]
 sshd[<*>]: fatal: Write failed: Connection reset by peer
 sshd[<*>]: input_userauth_request: invalid user <*>
 sshd[<*>]: Invalid user <*> from <*>
-sshd[<*>]: Invalid user <*> from <*> port <*>
 sshd[<*>]: PAM <*> more authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>
 sshd[<*>]: PAM <*> more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*> user=<*>
 sshd[<*>]: pam_systemd(sshd:session): Failed to release session: Interrupted system call

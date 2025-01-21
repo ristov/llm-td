@@ -23,6 +23,7 @@ sshd[2655]: Accepted publickey for harald from 192.168.3.63 port 37310 ssh2: RSA
 sshd[2657]: Received disconnect from 192.168.3.63: 11: disconnected by user
 sshd[27460]: Accepted publickey for felix from 192.168.2.39 port 49904 ssh2: RSA 64:f1:40:56:19:3d:fc:dd:63:88:f9:7a:0e:14:8c:9d
 sshd[28564]: error: Received disconnect from 192.168.2.228 port 35290:0:
+sshd[28733]: Accepted publickey for alex from 192.168.2.84 port 36278 ssh2
 sshd[28737]: Accepted publickey for george from 192.168.2.19 port 60584 ssh2: ED25519 SHA256:mKDgLxmdXfzg4jckNEVg8gLxi/+xunnroFV810Pc1Gb
 sshd[28775]: Accepted publickey for george from 192.168.2.19 port 60682 ssh2: ED25519 SHA256:mKDgLxmdXfzg4jckNEVg8gLxi/+xunnroFV810Pc1Gb
 sshd[28814]: Accepted publickey for george from 192.168.2.19 port 60766 ssh2: ED25519 SHA256:mKDgLxmdXfzg4jckNEVg8gLxi/+xunnroFV810Pc1Gb

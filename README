@@ -58,7 +58,7 @@ log message, so that LLM-TD can use it for recognizing templates:
 cat mylog | sed 's/^/AppName /' >test.log
 
 After that, you can configure LLM-TD to pick up the custom program name
-fom the beginning of each log message:
+from the beginning of each log message:
 
 ./llm-td.pl --model=openchat --logfile=test.log --script=./llm-query.sh \
   --regexp='(?<line>(?<program>AppName).+)'

@@ -55,7 +55,7 @@ messages. If the messages do not begin with the name of the logging program,
 you can add a custom program name (e.g., AppName) to the beginning of each
 log message, so that LLM-TD can use it for recognizing templates:
 
-cat mylog | perl -ne 'print "AppName $_"' >test.log
+cat mylog | sed 's/^/AppName /' >test.log
 
 After that, you can configure LLM-TD to pick up the custom program name
 fom the beginning of each log message:

@@ -64,6 +64,17 @@ from the beginning of each log message:
   --regexp='(?<line>(?<program>AppName).+)'
 
 
+Academic attribution
+--------------------
+When you use the software or data sets from this repository for your research,
+please provide a reference to the following paper in your publication:
+
+Risto Vaarandi and Hayretdin Bahsi, 
+"Using large language models for template detection from security event logs," 
+International Journal of Information Security, vol. 24, article 104, 2025,
+https://doi.org/10.1007/s10207-025-01018-y
+
+
 Availability and licensing
 --------------------------
 This toolkit is available from https://github.com/ristov/llm-td, 
